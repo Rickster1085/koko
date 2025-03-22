@@ -1,0 +1,220 @@
+/* Base styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+}
+
+/* Navigation styles */
+nav ul {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+nav a.current {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+/* Courses section */
+.courses {
+    float: left;
+    width: 65%;
+}
+
+article {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+figure {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 220px;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+hgroup h2 {
+    margin: 0 0 10px 0;
+    color: #444;
+}
+
+hgroup h3 {
+    margin: 0;
+    color: #888;
+    font-size: 1.1em;
+}
+
+/* Aside styles */
+aside {
+    float: right;
+    width: 30%;
+    background: #f8f8f8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popular-recipes a {
+    display: block;
+    color: #666;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.popular-recipes a:hover {
+    color: #000;
+}
+
+.contact-details {
+    margin-top: 30px;
+}
+
+/* Footer styles */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* Utility classes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Red accent color used throughout */
+:root {
+    --main-red: #c00;
+    --dark-red: #900;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    border-bottom: 3px solid var(--main-red);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: var(--dark-red);
+    text-transform: uppercase;
+    font-size: 2.8em;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+}
+
+/* Navigation styles */
+nav a {
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+nav a.current {
+    color: var(--dark-red);
+    border-bottom: 2px solid var(--main-red);
+}
+
+nav a:hover {
+    color: var(--main-red);
+}
+
+/* Courses section */
+hgroup h2 {
+    color: var(--dark-red);
+    font-size: 1.8em;
+}
+
+hgroup h3 {
+    color: #666;
+    border-bottom: 1px dotted var(--main-red);
+    padding-bottom: 5px;
+}
+
+/* Aside styles */
+aside {
+    background: #fff5f5;
+    border: 1px solid #ffd6d6;
+}
+
+.popular-recipes h2,
+.contact-details h2 {
+    color: var(--dark-red);
+    font-size: 1.4em;
+}
+
+.popular-recipes a:hover {
+    color: var(--main-red);
+}
+
+/* Footer styles */
+footer {
+    background: var(--dark-red);
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Image borders */
+figure {
+    border: 2px solid var(--main-red);
+    padding: 5px;
+}
